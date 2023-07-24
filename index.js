@@ -1,4 +1,5 @@
 document.getElementById('dice-selection-form').addEventListener('submit', (e) => {
+    e.preventDefault();
     rollDice(parseInt(e.target.selection.value))
 })
 
